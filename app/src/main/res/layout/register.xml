@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/register">
+
+
+    <EditText
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="nama"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="kata sandi"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="264dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="340dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@null"
+        android:hint="ulangi kata sandi"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regist"
+        android:layout_width="198dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/poppins_bold"
+        android:text="lanjut"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+</RelativeLayout>
